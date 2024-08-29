@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the model
-model = tf.keras.models.load_model('path_to_save_model/my_vgg16_model.keras')
+model = tf.keras.models.load_model('./my_vgg16_model.h5')
 
 # Define the preprocessing function for images
 def preprocess_image(image):
