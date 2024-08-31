@@ -1,1 +1,1 @@
-# Diabetic
+# Diabetic Retinopathy Diagnosis
