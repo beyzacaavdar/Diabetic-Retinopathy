@@ -10,7 +10,7 @@ This project aims to develop a deep learning model, specifically using the VGG16
 1: Mild DR \
 2: Moderate DR \
 3: Severe DR \
-4: Proliferative DR \
+4: Proliferative DR 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/25744839-c665-40ee-8b13-4755af95160f" alt="image" width="700"/>
 </p>
