@@ -7,8 +7,8 @@ Diabetic Retinopathy (DR) is a complication of diabetes that damages the retina 
 This project aims to develop a deep learning model, specifically using the VGG16 architecture, to automatically classify diabetic retinopathy severity from retinal images. The model assigns a score based on the following scale:
 
 0: No DR \
-1: Mild \
-2: Moderate \
-3: Severe \
+1: Mild DR \
+2: Moderate DR \
+3: Severe DR \
 4: Proliferative DR \
 ![image](https://github.com/user-attachments/assets/25744839-c665-40ee-8b13-4755af95160f)
