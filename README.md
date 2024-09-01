@@ -19,17 +19,16 @@ This project aims to develop a deep learning model, specifically using the VGG16
 If you want to use the app on google colab, you should clone the repo: 
 ```bash
 !git clone https://github.com/beyzacaavdar/Diabetic-Retinopathy.git 
-cd Diabetic-Retinopathy
-
-### Set up a secure tunnel to expose a local web server to the internet using cloudflared tool: 
+```
+Set up a secure tunnel to expose a local web server to the internet using cloudflared tool: 
 ```bash
 !wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 
 !chmod +x cloudflared-linux-amd64 
 !nohup /content/cloudflared-linux-amd64 tunnel --url http://localhost:8501 & 
-cd Diabetic-Retinopathy
+```
 
 Run the app.py and get the url to enter into the app: 
 ```bash
 !streamlit run app.py &>/content/logs.txt & 
 !grep -o 'https://.*\.trycloudflare.com' /content/nohup.out | head -n 1 | xargs -I {} echo "Your tunnel url {}" 
-cd Diabetic-Retinopathy
+```
