@@ -15,6 +15,8 @@ This project aims to develop a deep learning model, specifically using the VGG16
 <img src="https://github.com/user-attachments/assets/25744839-c665-40ee-8b13-4755af95160f" alt="image" width="700"/>
 </p>
 
+
+
 # • Quick Start
 If you want to use the app on google colab, you should clone the repo: 
 ```bash
