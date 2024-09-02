@@ -15,6 +15,8 @@ This project aims to develop a deep learning model, specifically using the VGG16
 <img src="https://github.com/user-attachments/assets/25744839-c665-40ee-8b13-4755af95160f" alt="image" width="700"/>
 </p>
 
+[streamlit-app-2024-09-02-12-09-08.webm](https://github.com/user-attachments/assets/0c39d2a3-baea-4770-91fa-a39fc5a933e1)
+
 
 
 # • Quick Start
